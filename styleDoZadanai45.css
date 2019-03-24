@@ -1,0 +1,40 @@
+﻿	/*Default part*/
+body{
+	background: url(https://www.tapeciarnia.pl/tapety/normalne/80621_niebieskie_tlo_swiatlo.jpg);
+}
+header{
+	background-color:grey;
+	color:white;
+	font-weight:bold;
+}
+footer{
+	text-align: right;
+	border-color: blue;
+	border-style:solid;
+}
+section.s_grey{
+	background-color:LightGray;
+	border-color: black;
+	border-style:solid;
+	text-align:right;
+}
+h2{
+	font-weight:normal;
+	font-size:30px;
+	text-align:center;
+}
+h3{
+	font-weight:bold;
+	font-size:22px;
+}
+p{
+	font-size:14px;
+}
+/*inherit part*/
+p>mark{
+	background-color:red;
+	color:white;
+}
+
+
+
