@@ -1,0 +1,67 @@
+﻿<!doctype html>
+<html lang="pl">
+	<head>
+		<title>Praca domowa</title>
+		<meta charset="utf-8">
+		<!-- style elemntów http://www.csszengarden.com/ -->
+		<link rel="stylesheet" href ="style.css">
+	</head>
+	<body >
+		<header>
+			<h2>Rezerwacja biletów lotniczych</h2>
+		</header>
+		<section>
+			<Form action ="final.html"  method="Get">
+			<input type="text" name = "name" placeholder = "Imie" autofocus required pattern = "[a-z ł A-Z]+" maxlength = "49"><br>
+			<input type="text" name = "surname" placeholder = "Nazwisko" required pattern = "[a-z A-Z]+" maxlength = "65"><br>
+			<input type="date" name = "date"   min="2019-03-24" ><br>
+			<input type="radio" name = "goBack" value ="yes" checked = "checked"> wraz z biletem powrotnym<br>
+			<input type="radio" name = "goBack" value ="no">w jedną strone<br>
+			<select name= "country">		
+				<optgroup label = "centralna Europa" >
+					<option value = "aus">Austria</option>
+					<option value = "be">Belgia</option>
+					<option value = "dk">Dania</option>
+					<option value = "fr">Francja</option>
+					<option value = "ho">Holandia</option>
+					<option value = "lu">Luksemburg</option>
+					<option value = "gr">Niemcy</option>
+					<option value = "si">Słowenia</option>
+				</optgroup>
+					<optgroup label = "połódniowa europa" >
+					<option value = "bg">Bułgaria</option>
+					<option value = "hr">Chorwacja</option>
+					<option value = "hu">Węgry</option>
+					<option value = "ro">Rumunia</option>
+				</optgroup>
+					<optgroup label = "wschodnia Europa" >
+					<option value = "cz">Czechy</option>
+					<option value = "ee">Estonia</option>
+					<option value = "gr">Grecja</option>
+					<option value = "cy">Cypr</option>
+					<option value = "lt">Litwa</option>
+					<option value = "lv">Łotwa</option>
+					<option value = "pl">Polska</option>
+					<option value = "sk">Słowacja</option>
+				</optgroup>
+					<optgroup label = "północna europa" >
+					<option value = "fi">Finlandia</option>
+					<option value = "se">Szwecja</option>
+				</optgroup>
+					<optgroup label = "zachodnia europa" >
+					<option value = "es">Hiszpania</option>
+					<option value = "ir">Irlandia</option>
+					<option value = "it">Włochy</option>
+					<option value = "mt">Malta</option>
+					<option value = "pt">Portugalia</option>
+					<option value = "uk">Zjednoczone Królestwo</option>
+				</optgroup>
+			</select><br>
+			<input type="submit" value ="Zarezerwuj"><br>
+			</Form>
+		</section>
+		<footer>
+			<p>dane lotinicze</p>
+		</footer>
+	</body>
+</html>
