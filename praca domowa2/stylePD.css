@@ -1,0 +1,61 @@
+﻿/*global*/
+body{
+	  position: relative;
+	  min-height: 100vh;
+}
+footer{
+	font-size:20px;
+	text-align:center;
+	color: RGB(255,255,255);
+	font-weight:bold;
+	background-color:RGB(20,100,120);
+	min-height:5px;
+	position:absolute;
+	bottom:0px;
+	width:100%;
+}
+header{
+	font-size:20px;
+	text-align:center;
+	color: RGB(255,255,255);
+	font-weight:bold;
+	background-color:RGB(20,100,120);
+	min-height:5px;
+}
+/*class*/
+.fakeButton a{
+	text-decoration:none;
+	border-style: solid;
+	color: Black;
+	margin: 5px;
+	padding:5px;
+}
+/*id*/
+#content{
+	padding-bottom: 2.5rem; 
+	position: relative;
+	margin-left:160px;
+}
+#menu{
+	background-color:RGB(20,100,120);
+	width:150px;
+	min-height:100%;
+	position:absolute;
+	top:0px;
+}
+#menu{
+	text-align:center;
+}
+#menu h3{
+	border-style:solid;
+}
+#menu li{
+	list-style-type:none;
+}
+#menu a{
+	text-decoration:none;
+	color: White;
+}
+
+
+
